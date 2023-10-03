@@ -1,0 +1,12 @@
+﻿int numbA = 1;
+int numbB = 8;
+int numbC = 3;
+int numbD = 2;
+int numbE = 6;
+int max = numbA;
+if (numbB > max) max = numbB;
+if (numbC > max) max = numbC;
+if (numbD > max) max = numbD;
+if (numbE > max) max = numbE;
+Console.Write("max= ");
+Console.Write(max);
